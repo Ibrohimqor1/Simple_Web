@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.nav__logo img{
+    width: 60px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+   
+ 
+}
+.nav__ul a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #000;
+transition: .8s ease;
+
+}
+.nav__btn{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+
+
+}
+.nav__btn a{
+    text-decoration: none;
+    border: .4px solid black;
+    padding: 15px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #0D161B;
+    font-weight: 700;
+    
+}
+.nav__ul a:hover{
+    color: #c4c121;
+    transition: .8s ease;
+
+}
+/* header start */
+.header__text{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+.header__hamma{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header{
+    background-image: url(/Rectangle\ 1\ \(1\).png);
+
+   
+}
+.header__text h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+letter-spacing: 4px;
+text-transform: uppercase;
+
+color: #000000;
+padding: 15px 0;
+}
+.header__text h1{
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 700;
+font-size: 77px;
+line-height: 88px;
+/* or 114% */
+padding: 15px 0;
+
+
+color: #0D161B;
+}
+.header__text p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+padding: 15px 0;
+
+text-transform: capitalize;
+
+color: #777383;
+}
+.header__text a{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;    
+line-height: 21px;
+
+color: #0D161B;
+
+background: #A6F309;
+border-radius: 8px;
+
+
+margin-right: 600px;
+align-items: center;
+padding: 15px 60px;
+margin-top: 20px;
+
+
+text-decoration: none;
+text-align: center;
+}
+
+/* liniya */
+
+.litiya{
+    height: 250px;
+}
+.ikki_liniya{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+  
+}
+.ikki_liniya h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 70px;
+/* or 140% */
+
+
+color: #0D161B;
+}
+.salom{
+    border: 2px solid #3c774ef6;
+    margin-bottom: 50px;
+
+}
+.ikki_liniya p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 160%;
+/* or 32px */
+
+text-transform: capitalize;
+
+color: #86969B;
+}
+.ul_choice ul{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    list-style: none;
+}
+.ul_choice ul a{
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #0D161B;
+}
+.choices{
+    height: 70vh;
+}
+.li_bor{
+    border: 1.5px solid #DEDEDE;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 9px;
+}
+.ul_choice ul a:hover{
+   border-bottom: 3px solid #A6F309;;
+
+}
+
+.cars{
+    display: flex;
+    justify-content:space-evenly;
+}
+.cards_hamma{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+}
+.border_card {
+    
+    width: 25%;
+    height: 400px;
+    margin-top: 25px;
+
+    background: #FFFFFF;
+box-shadow: 0px 6px 14px rgba(25, 31, 52, 0.06);
+border-radius: 12px;
+   
+}
+.cards_option{
+    display: flex;
+    padding: 10px 0px;
+}
+.cards_text img{
+    width: 60px;
+    display: flex;
+
+
+}
+.cards_option{
+    left: 0;
+}
+.card1{
+    display: flex;
+}
+.card_text{
+    display: flex;
+
+}
+.div_text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+.div_text h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #0D161B;
+}
+.div_text h3{   
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* identical to box height, or 32px */
+
+text-transform: capitalize;
+
+color: #777383;
+
+}
+.cards_option{
+  padding-top: 2px;
+ 
+}
+.cards_option img{
+    padding: 10px 15px;
+}
+.cards_option h5{
+    padding-top: 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+padding-left: -5;
+text-align: center;
+
+color: #86969B;
+}
+.cards_hamma button{
+    padding: 10px 0;
+    width: 150px;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 17px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+background-color: #FFFFFF;
+color: #86969B;
+
+border: 1.5px solid #DEDEDE;
+border-radius: 8px;
+
+  
+
+}
+.cardlarku{
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cars{
+    display: flex;
+    justify-content: space-around;
+}
+.border_card{
+    display: inline-block;
+}
+.acrdlarku{
+    display: flex;
+}
+.containn{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 35px;
+    align-items: center;
+  
+}
+.cards_hamma{
+    background: #FFFFFF;
+box-shadow: 0px 6px 14px rgba(25, 31, 52, 0.18);
+border-radius: 12px;
+}
+.aside_hamma{
+width: 100%;
+    height: 89vh;
+    display: flex;
+}
+.carslar{
+    height: 89px;
+    width: 100%;
+}
+
+
+
+
